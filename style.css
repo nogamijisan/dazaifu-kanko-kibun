@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   max-width: 960px;
@@ -209,6 +213,7 @@ h1 {
 
 /* Buttons */
 .dl-btn{
+  white-space: normal;
   display: inline-flex;
   align-items: baseline;
   justify-content: center;
@@ -222,6 +227,7 @@ h1 {
 }
 
 .dl-btn__sub{
+  display: block;
   font-size: .82rem;
   font-weight: 600;
   opacity: .75;
